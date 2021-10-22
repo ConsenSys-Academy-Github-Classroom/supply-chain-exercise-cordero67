@@ -13,10 +13,10 @@ contract SupplyChain {
 
     // <enum State: ForSale, Sold, Shipped, Received>
     enum State {
-        ForSale, // 0
-        Sold, // 1
-        Shipped, // 2
-        Received // 3
+        ForSale,
+        Sold,
+        Shipped,
+        Received
     }
 
     // <struct Item: name, sku, price, state, seller, and buyer>
